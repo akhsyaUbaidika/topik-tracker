@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.1",
@@ -27,4 +27,6 @@
     "tailwindcss": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.13.tgz",
     "vite": "^7.1.2"
   }
+  
+
 }
